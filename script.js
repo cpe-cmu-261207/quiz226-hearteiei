@@ -9,12 +9,11 @@ var k=0
 const search = document.querySelector('#search')
 const reset = document.querySelector('#reset')
 const text = document.querySelector('#text')
-const co = document.querySelector('#text')
 
 btn_toggle.onclick = () => {
   // your code here
   if(k===0){
-    var t=parseInt(length.value)+630610719
+    var t=parseInt(length.value)+630610721
     author.innerHTML = t
     k++
   }else{
