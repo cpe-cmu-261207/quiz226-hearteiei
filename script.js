@@ -30,4 +30,5 @@ reset.onclick = () => {
   length.value=5
   color.value="#FF0000"
 }
+
 // more codes for Search and Reset buttons here
