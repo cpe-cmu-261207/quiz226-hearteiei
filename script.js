@@ -22,13 +22,12 @@ btn_toggle.onclick = () => {
   }
 }
 search.onclick = () => {
-  console.log(text.innerHTML.indexOf(" ",5))
+   console.log(text.innerHTML.indexOf(" ",5))
+  
   
 }
 reset.onclick = () => {
-  text.innerHTML = co.innerHTML
   length.value=5
   color.value="#FF0000"
 }
-
 // more codes for Search and Reset buttons here
